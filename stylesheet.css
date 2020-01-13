@@ -3,11 +3,12 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
 body{
 background-color: rgb(245, 241, 241);
+padding: 0;
+margin: 0;
 }
 
 button{
@@ -24,11 +25,54 @@ ul{
 .container{
     width: 80%;
     margin: auto;
-    margin-top: 30px;
+    padding: 30px;
 }
 
 .navbar{
     width: 100%;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.logo, .search-bar, .sign-in {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    height: 25px;
+}
+
+.logo .hamburguer {
+    height: 30px;
+}
+
+.logo .youtube-logo {
+    height: 50px;
+}
+
+.search {
+    width: 60%;
+}
+
+.search input {
+    width: 90%;
+    height: 25px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.sign-in img {
+    margin-right: 15px;
+}
+
+.sign-in button {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    margin-right: 15px;
+}
