@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 iframe {
@@ -25,9 +25,14 @@ ul {
   list-style-type: none;
 }
 
+hr {
+    border-color: rgb(211, 211, 211);
+    border-width: 0.5px;
+}
+
 /**** CLASSES ****/
 
-.white{
+.white {
   background-color: white;
 }
 
@@ -35,6 +40,15 @@ ul {
   width: 80%;
   margin: auto;
   padding: 30px;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png");
+    width: 20px;
+    height: 20px;
+    vertical-align: center; 
+    margin-right: 6px;
 }
 
 /*Navbar*/
@@ -95,67 +109,113 @@ ul {
 /* Left Bar */
 
 .left_bar {
-
   float: left;
   width: 60%;
-  
-
 }
 
-.title_thingy{
+.title_thingy {
   margin-top: 8px;
-  padding: 16px 0 0 13px;
+  padding: 16px 15px 0 13px;
 }
 
-.title{
+.title {
   font-size: 1.3rem;
   padding-bottom: 10px;
-
 }
 
-.sub_view{
+.sub_view {
   display: flex;
   justify-content: space-between;
-
 }
-.channel{
-  float: right;  
+.channel {
+  float: right;
   padding-left: 10px;
-
-  
 }
 
-.channel img{
+.channel img {
   width: 85px;
-
 }
 
-.subscribe img{
-  display: inline;
-  position: relative;
-  left: 10px;
-}
-
-.subscribe_button{
-  display:flex;
+.subscribe_button {
+  display: flex;
   align-items: center;
   margin-top: 8px;
- 
 }
 
-.subscribe_button span{
-  background-color: rgb(214, 205, 205);
-  height: 24.98px;
-  font-size: 0.8rem;
-  padding: 3px;
-  box-sizing: border-box;
-  border: 1px solid grey;
-  border-radius: 0%;
- 
-  
-  }
+.subscribe_button button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 3px 6px 5px 6px;
+    border-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
 
-.channel_name{
+.subscribe_button .play-btn {
+    background-image: url("https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png");
+    background-position: -48px -775px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.subscribe_button .subscriber-count {
+    background-color: rgb(250, 250, 250);
+    color: rgb(115, 115, 115);
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-left: none;
+    font-size: 11px;
+    height: 22px;
+    text-align: center;
+    line-height: 24px;
+    padding: 0 6px;
+}
+
+.sub_view {
+    margin-bottom: 8px;
+}
+
+.views {
+    padding-top: 30px;
+}
+
+.share_likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share-container span, .likes-container span {
+    vertical-align: middle;
+}
+
+.add {
+    background-position: -151px -725px;
+}
+
+.share {
+    background-position: -267px -824px;
+}
+
+.more {
+    background-position: -154px -860px;
+}
+
+.likes {
+    background-position: 0 -867px;
+}
+
+.dislikes {
+    background-position: -174px -804px;
+}
+
+.channel_name {
   font-size: 0.8rem;
   color: rgb(58, 57, 57);
   font-weight: 600;
@@ -181,7 +241,7 @@ ul {
 }
 
 .thumbnail .info {
-    width: 50%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
   margin-left: 5px;
