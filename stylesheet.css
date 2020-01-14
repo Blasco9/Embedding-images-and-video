@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+iframe{
+    width: 100%;
+}
+
 body{
 background-color: rgb(245, 241, 241);
 padding: 0;
@@ -20,6 +24,8 @@ ul{
     list-style-type: none;
 }
 
+
+
 /**** CLASSES ****/
 
 .container{
@@ -34,6 +40,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .logo, .search-bar, .sign-in {
@@ -75,4 +82,33 @@ ul{
     height: 30px;
     padding: 5px;
     margin-right: 15px;
+}
+
+
+.left_bar{
+    background-color: pink;
+    float: left;
+    width: 60%;
+}
+.right_bar{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    padding: 3%;
+    padding-top: 0%;
+    width: 32%;
+}
+
+.thumbnail{
+    margin: 15px 0px;
+   
+}
+
+.thumbnail img{
+
+    width: 168px;
+    height: 94px;
+}
+
+.thumbnail .info{
+    display: inline-block;
 }
