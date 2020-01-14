@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 iframe {
@@ -26,11 +27,17 @@ ul {
 
 /**** CLASSES ****/
 
+.white{
+  background-color: white;
+}
+
 .container {
   width: 80%;
   margin: auto;
   padding: 30px;
 }
+
+/*Navbar*/
 
 .navbar {
   width: 100%;
@@ -85,17 +92,82 @@ ul {
   margin-right: 15px;
 }
 
+/* Left Bar */
+
 .left_bar {
-  background-color: pink;
+
   float: left;
   width: 60%;
+  
+
 }
+
+.title_thingy{
+  margin-top: 8px;
+  padding: 16px 0 0 13px;
+}
+
+.title{
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+
+}
+
+.sub_view{
+  display: flex;
+  justify-content: space-between;
+
+}
+.channel{
+  float: right;  
+  padding-left: 10px;
+
+  
+}
+
+.channel img{
+  width: 85px;
+
+}
+
+.subscribe img{
+  display: inline;
+  position: relative;
+  left: 10px;
+}
+
+.subscribe_button{
+  display:flex;
+  align-items: center;
+  margin-top: 8px;
+ 
+}
+
+.subscribe_button span{
+  background-color: rgb(214, 205, 205);
+  height: 24.98px;
+  font-size: 0.8rem;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 0%;
+ 
+  
+  }
+
+.channel_name{
+  font-size: 0.8rem;
+  color: rgb(58, 57, 57);
+  font-weight: 600;
+}
+
+/* Right Bar */
+
 .right_bar {
-  background-color: rgb(255, 255, 255);
   float: right;
   padding: 3%;
   padding-top: 0%;
-  width: 32%;
+  width: 33%;
 }
 
 .thumbnail {
