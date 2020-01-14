@@ -28,6 +28,7 @@ ul {
 hr {
     border-color: rgb(211, 211, 211);
     border-width: 0.5px;
+    margin: 10px 0;
 }
 
 /**** CLASSES ****/
@@ -49,6 +50,7 @@ hr {
     height: 20px;
     vertical-align: center; 
     margin-right: 6px;
+    opacity: 0.5;
 }
 
 /*Navbar*/
@@ -115,7 +117,7 @@ hr {
 
 .title_thingy {
   margin-top: 8px;
-  padding: 16px 15px 0 13px;
+  padding: 16px 15px 15px 13px;
 }
 
 .title {
@@ -177,12 +179,12 @@ hr {
     padding: 0 6px;
 }
 
-.sub_view {
-    margin-bottom: 8px;
-}
+
 
 .views {
     padding-top: 30px;
+    color: gray;
+    font-size: 1.2rem;
 }
 
 .share_likes {
@@ -193,6 +195,12 @@ hr {
 
 .share-container span, .likes-container span {
     vertical-align: middle;
+    color: gray;
+    font-size: 0.7rem;
+}
+
+.icon_text{
+  margin-right: 15px;
 }
 
 .add {
@@ -282,4 +290,23 @@ hr {
 
 .autoplay .autoplay-icon {
   height: 15px;
+}
+.description{
+  margin-top: 15px;
+  padding: 16px 15px 0 13px;
+}
+
+.description p{
+  font-size: 0.8rem;
+}
+
+.date{
+  padding-bottom: 10px;
+  color: rgb(31, 30, 30);
+}
+
+.show_more{
+  padding: 0 0 10px 0;
+  text-align: center;
+  color: gray
 }

@@ -1,0 +1,59 @@
+[33mcommit d1eca41abee577d57f4852ac054f68f96097e6ac[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-branch[m[33m, [m[1;31morigin/feature-branch[m[33m)[m
+Author: Julian Blasco <blascoblasco9@gmail.com>
+Date:   Tue Jan 14 16:23:42 2020 -0300
+
+    Add style to the share and likes section
+
+[33mcommit 0b2800ddf5e18b88c1448cac079be16ef1884e68[m
+Author: phfdonda <phfdonda@gmail.com>
+Date:   Tue Jan 14 14:00:57 2020 -0300
+
+    Configure subscribe panel
+
+[33mcommit 70ab10ac69635dc99a069708577f02ff4af29925[m
+Author: Julian Blasco <blascoblasco9@gmail.com>
+Date:   Tue Jan 14 12:36:06 2020 -0300
+
+    Finish the aside bar
+
+[33mcommit 7b3fa7dd1f2f56f4fab7659fe40b3ef578c1ffdd[m
+Author: phfdonda <phfdonda@gmail.com>
+Date:   Tue Jan 14 10:19:51 2020 -0300
+
+    Insert images for thumbnails
+
+[33mcommit 58205ca8f96147969f8a4e8969db089f1515596f[m
+Author: Julian Blasco <blascoblasco9@gmail.com>
+Date:   Mon Jan 13 18:54:55 2020 -0300
+
+    Final styling to the navbar
+
+[33mcommit f796d0d3baab880dac7388996f60962f7e806a0f[m
+Author: phfdonda <phfdonda@gmail.com>
+Date:   Mon Jan 13 18:02:21 2020 -0300
+
+    Added the CSS and the navbar styles
+
+[33mcommit 508173a29844044649a116434bd78614a4a9beea[m
+Author: Julian Blasco <blascoblasco9@gmail.com>
+Date:   Mon Jan 13 17:10:12 2020 -0300
+
+    Finish html markup
+
+[33mcommit aade8fa20e1b9a4901e0fa348b36519349755271[m
+Author: phfdonda <phfdonda@gmail.com>
+Date:   Mon Jan 13 16:07:17 2020 -0300
+
+    Create divs and sections
+
+[33mcommit c4b580a85fda551906d91b50294ac0ce1b06ac81[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Julian Blasco <blascoblasco9@gmail.com>
+Date:   Mon Jan 13 14:44:59 2020 -0300
+
+    Create the navbar and add img folder
+
+[33mcommit 756c5ca45223662f731b65f55e3a3dbad66bf8a7[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Blasco9 <51807277+Blasco9@users.noreply.github.com>
+Date:   Mon Jan 13 12:30:52 2020 -0300
+
+    Initial commit
