@@ -48,7 +48,7 @@ hr {
     background-image: url("https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png");
     width: 20px;
     height: 20px;
-    vertical-align: center; 
+    vertical-align: middle; 
     margin-right: 6px;
     opacity: 0.5;
 }
@@ -76,12 +76,15 @@ hr {
 }
 
 .logo .hamburguer {
-  height: 20px;
-  margin: 0 5px;
+  width: 16px;
+  height: 16px;
+  background-position: -198px -862px;
+  margin-left: 20px;
 }
 
 .logo .youtube-logo {
-  height: 50px;
+  width: 100px;
+  height: 45px;
 }
 
 .search {
@@ -92,27 +95,50 @@ hr {
   width: 90%;
   height: 25px;
   box-sizing: border-box;
-  margin-right: 5px;
   padding: 5px;
+}
+
+.search button {
+    height: 25px;
+    width: 50px;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(211, 211, 211);
+    border-left: none;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.magnifying-glass {
+    background-position: -28px -66px;
+    width: 15px;
+    height: 15px;
+    margin: 0 0 0 0;
 }
 
 .sign-in img {
   margin-right: 15px;
 }
 
+.upload {
+    background-position: -125px -314px;
+    margin-right: 20px;
+}
+
 .sign-in button {
-  background-color: blue;
+  background-color: rgb(22, 122, 198);
   color: white;
   height: 30px;
-  padding: 5px;
-  margin-right: 15px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 2px;
 }
 
 /* Left Bar */
 
 .left_bar {
   float: left;
-  width: 60%;
+  width: 63%;
 }
 
 .title_thingy {
@@ -233,7 +259,7 @@ hr {
 
 .right_bar {
   float: right;
-  padding: 3%;
+  padding: 1.5%;
   padding-top: 0%;
   width: 33%;
 }
@@ -244,8 +270,8 @@ hr {
 }
 
 .thumbnail img {
-  width: 168px;
-  height: 94px;
+  max-width: 150px;
+  
 }
 
 .thumbnail .info {
