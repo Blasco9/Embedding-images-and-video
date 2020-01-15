@@ -2,6 +2,8 @@
 
 This is the first project of the Microverse HTML and CSS Curriculum. The project consists of a clone of the famous youtube page.
 
+![screenshot](./screenshot.bmp)
+
 ## Built with
 - HTML5
 - CSS3
