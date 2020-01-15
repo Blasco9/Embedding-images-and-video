@@ -17,6 +17,7 @@ body {
 }
 
 button {
+  cursor: pointer;
   border: none;
   background-color: rgba(0, 130, 0, 0%);
 }
