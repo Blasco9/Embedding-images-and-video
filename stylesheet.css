@@ -1,0 +1,339 @@
+/**** TAGS ****/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+iframe {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(245, 241, 241);
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 130, 0, 0%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+    border-color: rgb(211, 211, 211);
+    border-width: 0.5px;
+    margin: 10px 0;
+}
+
+/**** CLASSES ****/
+
+.white {
+  background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png");
+    width: 20px;
+    height: 20px;
+    vertical-align: middle; 
+    margin-right: 6px;
+    opacity: 0.5;
+}
+
+/*Navbar*/
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo,
+.search-bar,
+.sign-in {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  height: 25px;
+}
+
+.logo .hamburguer {
+  width: 16px;
+  height: 16px;
+  background-position: -198px -862px;
+  margin-left: 20px;
+}
+
+.logo .youtube-logo {
+  width: 100px;
+  height: 45px;
+}
+
+.search {
+  width: 60%;
+}
+
+.search input {
+  width: 90%;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.search button {
+    height: 25px;
+    width: 50px;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(211, 211, 211);
+    border-left: none;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.magnifying-glass {
+    background-position: -28px -66px;
+    width: 15px;
+    height: 15px;
+    margin: 0 0 0 0;
+}
+
+.sign-in img {
+  margin-right: 15px;
+}
+
+.upload {
+    background-position: -125px -314px;
+    margin-right: 20px;
+}
+
+.sign-in button {
+  background-color: rgb(22, 122, 198);
+  color: white;
+  height: 30px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 2px;
+}
+
+/* Left Bar */
+
+.left_bar {
+  float: left;
+  width: 63%;
+}
+
+.title_thingy {
+  margin-top: 8px;
+  padding: 16px 15px 15px 13px;
+}
+
+.title {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+
+.sub_view {
+  display: flex;
+  justify-content: space-between;
+}
+.channel {
+  float: right;
+  padding-left: 10px;
+}
+
+.channel img {
+  width: 85px;
+}
+
+.subscribe_button {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.subscribe_button button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 3px 6px 5px 6px;
+    border-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.subscribe_button .play-btn {
+    background-image: url("https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png");
+    background-position: -48px -775px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.subscribe_button .subscriber-count {
+    background-color: rgb(250, 250, 250);
+    color: rgb(115, 115, 115);
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-left: none;
+    font-size: 11px;
+    height: 22px;
+    text-align: center;
+    line-height: 24px;
+    padding: 0 6px;
+}
+
+
+
+.views {
+    padding-top: 30px;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.share_likes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share-container span, .likes-container span {
+    vertical-align: middle;
+    color: gray;
+    font-size: 0.7rem;
+}
+
+.icon_text{
+  margin-right: 15px;
+}
+
+.add {
+    background-position: -151px -725px;
+}
+
+.share {
+    background-position: -267px -824px;
+}
+
+.more {
+    background-position: -154px -860px;
+}
+
+.likes {
+    background-position: 0 -867px;
+}
+
+.dislikes {
+    background-position: -174px -804px;
+}
+
+.channel_name {
+  font-size: 0.8rem;
+  color: rgb(58, 57, 57);
+  font-weight: 600;
+}
+
+/* Right Bar */
+
+.right_bar {
+  float: right;
+  padding: 1.5%;
+  padding-top: 0%;
+  width: 33%;
+}
+
+.thumbnail {
+  margin: 15px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.thumbnail img {
+  max-width: 150px;
+  
+}
+
+.thumbnail .info {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.thumbnail-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+  letter-spacing: 0.03rem;
+}
+
+.thumbnail-channel,
+.thumbnail-views {
+  font-size: 12px;
+  color: grey;
+}
+
+.up-next {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.autoplay {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.autoplay .exclamation-mark {
+  height: 20px;
+  margin: 0 5px;
+}
+
+.autoplay .autoplay-icon {
+  height: 15px;
+}
+.description{
+  margin-top: 15px;
+  padding: 16px 15px 0 13px;
+}
+
+.description p{
+  font-size: 0.8rem;
+}
+
+.date{
+  padding-bottom: 10px;
+  color: rgb(31, 30, 30);
+}
+
+.show_more{
+  padding: 0 0 10px 0;
+  text-align: center;
+  color: gray
+}
